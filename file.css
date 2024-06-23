@@ -1,0 +1,175 @@
+@media (max-width:995px)
+{
+    .hidden{
+        display: none;
+    }
+}
+@media (max-width:767){
+    .hide{
+        display: none;
+    }
+}
+.prop{
+    font-size: 12px;
+    padding: 5px;
+}
+.d-flex{
+    margin-right: 61px;
+}
+.fa-solid {
+    color: black;
+}
+.carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+}
+.carousel-control-next{
+    justify-content: end;
+    top: 0px;
+    opacity: 1;
+}
+.carousel-control-prev{
+    justify-content: start;
+    top: 0px;
+    opacity: 1;
+}
+
+.color{
+    background-color: #000000;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.transparency{
+    opacity:0.1 ;
+}
+::placeholder{
+    font-size: 13px;
+    color:#5A5A5A ;
+    opacity: 1;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 100px;
+}
+.under{
+    border-bottom:solid white 1px;
+}
+.nextprevbtn{
+    width: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+.card img{
+    width: 74%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.card{
+    border-radius: 0;
+}
+.card:hover{
+    border:1px solid black;
+}
+.card p{
+    margin: 0;
+}
+.card-body{
+    padding: 0;
+    margin-left: 10px;
+}
+.products{
+    margin-left: 40px;
+    overflow: hidden;
+}
+.p-text{
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.card-text{
+    font-weight: 550;
+    font-size: 17px;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    padding-bottom: 29px;
+}
+.image{
+    overflow: hidden;
+    width: 300px;
+}
+.image img:hover{
+    transform: scale(1.15);
+}
+.image img{
+    width: 100%;
+}
+.topics{
+    margin-right: 26px;
+    margin-left: 56px;
+}
+.topics1{
+    display: flex;
+}
+.gap{
+    margin-right: 20px;
+}
+.bold1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.accordion-button{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.hide{
+    padding-left: 10px;
+}
+.pad{
+    padding-top: 30px;
+}
+.accordion-button:focus{
+    box-shadow:none;
+}
+.accordion-button:not(.collapsed){.a:hover{
+    text-decoration: underline;
+}
+    background-color: black;
+    color:white;
+    font-size: 15px;
+}
+.accordion-body{
+    background-color: black;
+    color:#5A5A5A ;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.accordion-body p{
+    padding-top: 24px;
+}
+
+
+@media (width > 767px){
+    .div1 {
+      display: none;
+    }
+}
+@media (width < 767px) {
+    .div2 {
+      display: none;
+    }
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
